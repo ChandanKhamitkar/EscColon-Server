@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 const { json } = pkg;
-const port = process.env.PORT || 3002;
+const port = process.env.PORT || 3000;
 
 // CORS configuration (adjust as needed)
 app.use(
